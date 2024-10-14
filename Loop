@@ -1,0 +1,19 @@
+#include <stdio.h>
+int main()
+{
+    int i,s,s2,n;
+    printf("give the limit :");
+    scanf("%d",&n);
+    i=1;
+    s=0;
+    s2=0;
+    while(n>=i)
+    {
+        s=s+i;
+        s2=s2+s;
+        i++;
+    }
+    printf("Sum= %d",s2);
+    return 0;
+}
+
